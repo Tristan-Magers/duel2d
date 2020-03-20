@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5517993932116996816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8847466492020572355}
+  - component: {fileID: 6102109430357820940}
+  - component: {fileID: 2364703805311220721}
+  - component: {fileID: 1335417478068744138}
+  m_Layer: 0
+  m_Name: 3D tile block obj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8847466492020572355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5517993932116996816}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!23 &6102109430357820940
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5517993932116996816}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dd12b27c9de00274d89c994db19bc650, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &2364703805311220721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5517993932116996816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fda58d24f620f0409acfd1a46661fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xpos: 0
+  ypos: 0
+  Health: 5
+  x: 0
+  y: 0
+  type: 0
+  state: 0
+  countdown: -1
+  platnumber: 0
+  Collide: 1
+  sprite_hard_12: {fileID: 2100000, guid: 8013f01ac8d8c724e817290e9fa935f0, type: 2}
+  sprite_hard_11: {fileID: 2100000, guid: db1c22e90b1d85447babcad5d1bfb303, type: 2}
+  sprite_hard_10: {fileID: 2100000, guid: 6cb7c42db4746d548a77427a418e847b, type: 2}
+  sprite_hard_9: {fileID: 2100000, guid: bfa0d33a4628ddf439fc8d603973cf05, type: 2}
+  sprite_hard_8: {fileID: 2100000, guid: 7d0e8f37027d3bc4799020183fac7363, type: 2}
+  sprite_hard_7: {fileID: 2100000, guid: a38ae19c3635a80418c569309915ff8c, type: 2}
+  sprite_hard_6: {fileID: 2100000, guid: 3306c35b565f7a843bec6e321b1e4acc, type: 2}
+  sprite_hard_5: {fileID: 2100000, guid: 59f9251619f72ec41ae3571176b52180, type: 2}
+  sprite_hard_4: {fileID: 2100000, guid: 23a59c5087b04d24e8e38b1f34242546, type: 2}
+  sprite_hard_3: {fileID: 2100000, guid: 1c7a6331c5c08cd4d802583361aa822d, type: 2}
+  sprite_hard_2: {fileID: 2100000, guid: 573e928ab41d0f14a9a493c7c326f53a, type: 2}
+  sprite_hard_1: {fileID: 2100000, guid: 5cfa6c3d7b0035f4db7c59c79f3ddd6b, type: 2}
+  sprite_block_5: {fileID: 2100000, guid: dd12b27c9de00274d89c994db19bc650, type: 2}
+  sprite_block_4: {fileID: 2100000, guid: 0b06b64fc9c4aa949864c6fe1a2c300e, type: 2}
+  sprite_block_3: {fileID: 2100000, guid: bb0c8e57146c921418293eb85b9b4d16, type: 2}
+  sprite_block_2: {fileID: 2100000, guid: 38a1a773171b31b4db12c5be24000c36, type: 2}
+  sprite_block_1: {fileID: 2100000, guid: 2935dc777f8e32044b5eb864dc6ae999, type: 2}
+  sprite_plat_3: {fileID: 2100000, guid: 0ba53031346ee114b9e84db663274d61, type: 2}
+  sprite_plat_2: {fileID: 2100000, guid: f7300f3a9eb5e2b41bba8b8d380c4401, type: 2}
+  sprite_plat_1: {fileID: 2100000, guid: 394e2d390cc200b49b42ea2acbda28bf, type: 2}
+  sprite_plat_0: {fileID: 2100000, guid: 67ab04feac4d12d4abe2ae1aad9a5596, type: 2}
+--- !u!33 &1335417478068744138
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5517993932116996816}
+  m_Mesh: {fileID: 4300000, guid: 7dd5c7cd9de405b44b0089cd873fe5e1, type: 3}
